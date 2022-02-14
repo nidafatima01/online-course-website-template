@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Amiri', serif;
+  background-color: #F7F7F7;
+}
+body::before{
+  display: block;
+  content: '';
+  height: 70px;
+}
+h3 {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h6 {
+  color: #398AB9;
+  font-weight: bold;
+}
+
+#letter {
+  background-color: #F50057;
+  color: #fff;
+  padding: 5% 7%;
+}
+
+#curriculum {
+  padding: 5% 7%;
+}
+
+#courses {
+  padding: 8% 5%;
+  background-color: #082032;
+  color: #fff;
+}
+#subscribe {
+  padding: 7%;
+}
+
+#frameworks {
+  padding: 5%;
+}
+#instructor {
+  padding: 5% 7%;
+}
+#faq {
+  padding: 5% 18%;
+}
+#contact{
+  padding:5% 8% 6%;
+}
+#footer{
+  padding: 6% 7% 2%;
+  color: #F7F7F7;
+  background-color: #082032;
+}
+.navbar-brand {
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+
+.nav-item {
+  font-size: 1.1rem;
+}
+
+.image {
+  padding-left: 13%;
+}
+
+.head-1 {
+  color: #FFCA03;
+}
+
+.heading-1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 2%;
+}
+
+.submit {
+  background-color: #082032;
+}
+.para-1 {
+  margin-bottom: 3%;
+  font-size: 1.3rem;
+}
+
+.image1 {
+  width: 100%;
+  padding-top: 2%;
+}
+
+.my-btn:hover {
+  background-color: #F50057;
+}
+
+.icon-img{
+  width: 13%;
+}
+.para-2 {
+  font-size: 1.1rem;
+}
+
+.image2 {
+  width: 100%;
+  padding-top: 2%;
+}
+.image3 {
+  width: 60%;
+  margin: 10% 18%;
+}
+.para-3{
+  color:#395B64;
+}
+.para4{
+  font-size: 1.2rem;
+}
+.color-section{
+  background-color: #F7F7F7;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+.social-icon{
+  color: white ;
+  font-size: 1.5rem;
+}
+.social-icon:hover {
+	color:linear-gradient(to bottom, #f6f5f1 2%, #f5f4f4 100%);
+	color: #000000 ;
+}

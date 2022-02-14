@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Online Courses</title>
+  <link rel="icon" type="image/icon" size="32x32" href="./img/favicon1.ico">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top" style="background-color:#082032">
+      <div class="container">
+        <a href="#home" class="navbar-brand">Frontech</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Offered Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructor" class="nav-link">Instructors</a>
+            </li>
+            <li class="nav-item">
+              <a href="#faq" class="nav-link">FAQ's</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- Header section -->
+  <section class="text-center text-sm-start" id="header">
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-lg-6 pt-5">
+          <h1 class="heading-1">Become a <span class="head-1">Web Developer</span></h1>
+          <p class="para-1">We focus on teaching our students the fundamentals of the latest and greatest technologies to prepare them for their first dev role.</p>
+          <button type="button" class="btn btn-outline-dark btn-lg download-button my-btn mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Start the Enrollment</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Enrollment Form</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="lead  text-center">Fill out this form and we will get back to you.</p>
+                  <form>
+                    <div class="mb-3">
+                      <label for="first-name" class="col-form-label">First Name:</label>
+                      <input type="text" class="form-control" id="first-name" value="">
+                      <label for="last-name" class="col-form-label">Last Name:</label>
+                      <input type="text" class="form-control" id="last-name" value="">
+                      <label for="email" class="col-form-label">Email:</label>
+                      <input type="email" class="form-control" id="email" value="">
+                      <label for="phone" class="col-form-label">Phone:</label>
+                      <input type="tel" class="form-control" id="phone" value="">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 image">
+          <img class="d-none d-md-block image1" src="img/WD-programmer.svg" alt="web development image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  Newsletter -->
+  <section id="letter">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-lg-6 mb-3 mb-md-0">
+          <h3>Try some of our classes</h3>
+        </div>
+        <div class="col-lg-6">
+          <input class="mb-md-2 mb-sm-2 p-1" type="email" value="" placeholder="Enter Email Address">
+          <button class="btn btn-dark submit mt-1 px-4 pb-0" data-bs-toggle="modal" data-bs-target="#letterModal" type="submit">Submit</button>
+          <div class="modal fade" id="letterModal" tabindex="-1" aria-labelledby="letterModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-dark">
+                  <p>Thank you for your interest, please check your email.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-light" data-bs-dismiss="modal">Ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Features section -->
+  <section id="curriculum" class="container-fluid">
+    <h6 class="text-center">OUR CURRICULUM</h6>
+    <h1 class="text-center mb-4 px-3">Used by Most Students and Teachers</h1>
+    <div class="row">
+      <div class="col-sm-4 text-center p-4">
+        <img class="icon-img mb-4" src="https://assets.website-files.com/5ded5fff5049675f3a19eb84/5df057f7dd486260b9f60656_award.svg" alt="icon-image">
+        <h4>Only the best</h4>
+        <p class="para-3 px-4">Lessons authored by world-renowned artists and educators.</p>
+      </div>
+      <div class="col-sm-4 text-center p-4">
+        <img class="icon-img mb-4" src="https://assets.website-files.com/5ded5fff5049675f3a19eb84/5df057a567ee979efefcb86f_lesson.svg" alt="icon-img">
+        <h4>Hundreds of lessons</h4>
+        <p class="para-3 px-4">For absolute beginners to advanced in popular formats.</p>
+      </div>
+      <div class="col-sm-4 text-center p-4">
+        <img class="icon-img mb-4" src="https://assets.website-files.com/5ded5fff5049675f3a19eb84/5df057713d45141fed9c53b8_books.svg" alt="icon-img">
+        <h4>Free programs available</h4>
+        <p class="para-3 px-4">Try our free tier of courses and see for yourself.</p>
+      </div>
+    </div>
+  </section>
+<!-- Courses -->
+  <section id="courses">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="image2" src="img/htmcssjs.svg" alt="online-course">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="m-4 fw-bold">Master the skill with a free online training</h2>
+          <p class="m-4 para-2">Develop skills you can apply right away, with e-learning courses designed by Frontech experts. Learn at your own pace and get certified.<br />
+            Frontech has a high focus on career advancement and providing the essential tools to succeed in landing the job of your dreams. The website has a robust catalog that not only covers the skill but also provides classes on applying for jobs
+            and interviewing.<br />
+            The platform is fun, current, but still packed with education.</p>
+          <a href="#" class="btn btn-outline-light mx-4"> <i class="bi bi-chevron-right"></i><span class="more"> Explore Classes</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="frameworks">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="m-4 fw-bold">Learn advanced JavaScript Frameworks</h2>
+          <p class="m-4 para-2">A JavaScript framework is a collection of JavaScript code libraries that provide a web developer with pre-written code for routine programming tasks. JavaScript frameworks, like most other frameworks, provide some
+            rules and guidelines. Using these rules and guidelines, any developer can make complex applications faster and more efficiently than if they decided to build from scratch. The rules and guidelines help shape and organize your website or
+            web
+            application too!</p>
+          <a href="#" class="btn btn-outline-dark mx-4">
+            <i class="bi bi-chevron-right"></i><span class="more pb-0">Read more</span>
+          </a>
+        </div>
+        <div class="col-lg-6 img-frm">
+          <img class="image3" src="img/js-frameworks.svg" alt="online-course">
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Instructors -->
+  <section class="container-fluid" id="instructor">
+    <h1 class="text-center fw-bold">Our Instructors</h1>
+    <p class="text-center para4">Our instructors all have 5+ years working as a web developer in the industry</p>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-dark instructor-color">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/90.jpg" class="rounded-circle" alt="">
+            <h3 class="card-title text-center">Julia Roy</h3>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatibus voluptatum quo a culpa laudantium omnis molestiae delectus officiis. Itaque, sunt? Ullam quibusdam, provident praesentium.</p>
+            <a href="#"><i class="bi bi-twitter text-dark m-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark m-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark m-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-dark instructor-color">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle" alt="">
+            <h3 class="card-title text-center">Helly Shah</h3>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatibus voluptatum quo a culpa laudantium omnis molestiae delectus officiis. Itaque, sunt? Ullam quibusdam, provident praesentium.</p>
+            <a href="#"><i class="bi bi-twitter text-dark m-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark m-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark m-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-dark instructor-color">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/40.jpg" class="rounded-circle" alt="">
+            <h3 class="card-title text-center">Jeorge</h3>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatibus voluptatum quo a culpa laudantium omnis molestiae delectus officiis. Itaque, sunt? Ullam quibusdam, provident praesentium.</p>
+            <a href="#"><i class="bi bi-twitter text-dark m-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark m-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark m-1"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="card text-dark instructor-color">
+          <div class="card-body text-center">
+            <img src="https://randomuser.me/api/portraits/men/90.jpg" class="rounded-circle" alt="">
+            <h3 class="card-title text-center">Kettie Smit</h3>
+            <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut voluptatibus voluptatum quo a culpa laudantium omnis molestiae delectus officiis. Itaque, sunt? Ullam quibusdam, provident praesentium.</p>
+            <a href="#"><i class="bi bi-twitter text-dark m-1"></i></a>
+            <a href="#"><i class="bi bi-facebook text-dark m-1"></i></a>
+            <a href="#"><i class="bi bi-linkedin text-dark m-1"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- FAQ -->
+  <section id="faq" class="container-fluid  color-section">
+    <h2 class="text-center fw-bold mb-5">Frequently asked questions</h2>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item color-section">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed  color-section" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What is Frontech?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Focused on web development, Frontech is a more intensive option for those who want to learn quickly. It presently offers learning focused specifically on building skills in two tracks: web design or web
+            development.</div>
+        </div>
+      </div>
+      <div class="accordion-item color-section">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed color-section" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            What is included in a Frontech membership and what does it cost?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Instead of short courses or lectures, this highly structured program runs for 25 hours per week over several months.With tuition starting at $8,500, frontech doesn’t come cheap—but it does offer a great option
+            for those who are ready to commit to a career change.</div>
+        </div>
+      </div>
+      <div class="accordion-item color-section">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed color-section" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            How does the 30-day guarantee work?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Our goal is to make sure that you have the best learning experience possible. If Frontech isn’t for you, then email us within 30 days of the date you purchase your subscription, and we’ll offer a full refund.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item color-section">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed color-section" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            What skill-level is required for the 30 day Sessions?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Sessions are designed for people at all skill levels. Your instructor will walk you through a structured curriculum with step-by-step instructions, but will also challenge you to go beyond the Session content by
+            exploring your own creativity. You will be able to gain support and up-level your skills by participating in a community of your peers and by receiving meaningful feedback on your work from trained Teaching Assistants.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Contact and map -->
+  <section class="container-fluid" id="contact">
+    <div class="row g-4">
+      <div class="col-md">
+        <h2 class="text-center fw-bold mb-4">Contact Me</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item color-section">
+            <span class="fw-bold">Main Location</span> 32/A Street 5, Kolkata, India
+          </li>
+          <li class="list-group-item color-section">
+            <span class="fw-bold">Phone Number</span> +91987654321
+          </li>
+          <li class="list-group-item color-section">
+            <span class="fw-bold">Email Id</span> weavailable4u@gmail.com
+          </li>
+          <li class="list-group-item color-section">
+            <span class="fw-bold">Enrollment Phone</span> 555(555)879
+          </li>
+        </ul>
+      </div>
+      <div class="col-md pt-4">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe width="90%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=kolkata%20india&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer-->
+  <footer class="position-relative" id="footer">
+    <div class="container-fluid text-center">
+      <a href="https://twitter.com/NidaFatima01" target="_blank"><i class="bi bi-twitter m-1 social-icon"></i></a>
+      <a href="mailto:fatimanida916@gmail.com" target="_blank"><i class="bi bi-envelope-fill m-1 social-icon"></i></a>
+      <a href="#"><i class="bi bi-facebook m-1 social-icon"></i></a>
+      <a href="https://www.linkedin.com/in/nida-fatima-588a75192/" target="_blank"><i class="bi bi-linkedin m-1 social-icon"></i></a>
+      <p class="text-muted mt-2">©2022 Frontech. All right reserved.<a href="#" class="position-absolute buttom-0 end-0 px-5 text-light"> <i class="bi bi-arrow-up-circle social-icon"></i></a></p>
+    </div>
+  </footer>
+<!--bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
